@@ -227,4 +227,3 @@ ramanujantris n = [(a,sum [1..(a-1)],sum [(a+1)..n])| a <- [1..n]]
 determinante2x2 :: [[Integer]] -> Integer --calcula determinante de una matriz 2x2
 determinante2x2 [[a,b],[c,d]] = a*b - c*d
 
---cambiando algo
